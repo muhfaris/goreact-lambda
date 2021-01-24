@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "go-render-api"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-uae0lwttf7cw"
+s3_prefix = "go-render-api"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
