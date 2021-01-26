@@ -4,11 +4,49 @@ This is a sample template for go-render-api - Below is a brief explanation of wh
 
 ```bash
 .
-├── Makefile                    <-- Make to automate build
-├── README.md                   <-- This instructions file
-├── hello-world                 <-- Source code for a lambda function
-│   ├── main.go                 <-- Lambda function code
-│   └── main_test.go            <-- Unit tests
+├── api
+│   ├── api.go
+│   ├── client
+│   │   ├── package.json
+│   │   ├── public
+│   │   │   ├── favicon.ico
+│   │   │   ├── images
+│   │   │   │   └── cat.svg
+│   │   │   ├── index.html
+│   │   │   ├── logo192.png
+│   │   │   ├── logo512.png
+│   │   │   ├── manifest.json
+│   │   │   └── robots.txt
+│   │   ├── README.md
+│   │   ├── src
+│   │   │   ├── App.css
+│   │   │   ├── App.js
+│   │   │   ├── App.test.js
+│   │   │   ├── Components
+│   │   │   │   └── Title
+│   │   │   │       └── Title.js
+│   │   │   ├── index.css
+│   │   │   ├── index.js
+│   │   │   ├── logo.svg
+│   │   │   ├── reportWebVitals.js
+│   │   │   ├── setupTests.js
+│   │   │   └── Views
+│   │   └── yarn.lock
+│   ├── go.mod
+│   ├── go.sum
+│   ├── html.go
+│   ├── main
+│   ├── main.go
+│   └── views
+│       └── index.html
+├── healthcheck
+│   ├── go.mod
+│   ├── go.sum
+│   ├── main
+│   ├── main.go
+│   └── main_test.go
+├── Makefile
+├── README.md
 └── template.yaml
 ```
 
