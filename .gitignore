@@ -2,5 +2,7 @@ tags*
 vendor
 samconfig.toml
 api/client/node_modules
+api/client/tags*
+api/client/yarn*
 api/bindata.go
 .aws-sam/
