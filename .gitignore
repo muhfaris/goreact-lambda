@@ -1,0 +1,6 @@
+tags*
+vendor
+samconfig.toml
+api/client/node_modules
+api/bindata.go
+.aws-sam/
