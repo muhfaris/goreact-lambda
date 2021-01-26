@@ -2,6 +2,7 @@ tags*
 vendor
 samconfig.toml
 api/client/node_modules
+api/client/build
 api/client/tags*
 api/client/yarn*
 api/bindata.go
